@@ -17,7 +17,7 @@ Console.WriteLine("_____________________________________________________________
 Console.WriteLine("|     Fecha       |  Par 1   |  Precio 1   |  Par 2     | Precio 2   |  Par 3   |  Precio 3   |      Profit Max       |");
 foreach (var signal in signals)
 {
-    Console.WriteLine($"|{signal.Fecha.ToString("dd/MM/yyyy hh:mm")} | {signal.Pair1}| {signal.Price1} | {signal.Pair2}| {signal.Price2} | {signal.Pair3}| {signal.Price3} | {signal.MaxProfit} |");
+    Console.WriteLine($"|{signal.Date.ToString("dd/MM/yyyy hh:mm")} | {signal.Pair1}| {signal.Price1} | {signal.Pair2}| {signal.Price2} | {signal.Pair3}| {signal.Price3} | {signal.MaxProfit} |");
 }
 Console.WriteLine("___________________________________________________________________________________________________________________________");
 #endregion
